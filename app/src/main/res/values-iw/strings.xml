@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">קולנוע</string>
+    <string name="Booking">הזמן סרט</string>
+    <string name="report">נתקלת בבעיה?</string>
+    <string name="full_name">נא הכנס את שמך</string>
+    <string name="date">תאריך</string>
+    <string name="time">שעה</string>
+    <string name="movie_choice">בחר סרט</string>
+    <string name="star_war">מלחמת הכוכבים</string>
+    <string name="joker">ג\'וקר</string>
+    <string name="jumanji">ג\'ומנג\'י</string>
+    <string name="next_btn">המשך</string>
+    <string name="error_str">נא למלא את כל השדות, נסה שוב</string>
+    <string name="calendar_event">האם תרצה להוסיף את מועד ההקרנה ליומן שלך?</string>
+    <string name="alarm_clock">האם תרצה לכוון שעון מעורר לזמן האירוע?</string>
+    <string name="done_btn">סיום</string>
+    <string name="almost_done">כמעט סיימנו</string>
+    <string name="yes_str">כן</string>
+    <string name="cinema_city">סינמה סיטי</string>
+    <string name="event_title">הקרנה ל-</string>
+    <string name="report_headline">רוצה להתלונן? רשום את כתובת המייל שלך ונחזור אליך במהרה! אפשר לצרף תמונה או סרטון של התלונה אם תרצה.</string>
+    <string name="email_address">רשום את שם המייל שלך</string>
+    <string name="picturesaved_str">התמונה שלך נשמרה!</string>
+    <string name="videosaved_str">הווידאו שלך נשמר!</string>
+    <string name="thanks_str">תודה רבה , נחזור אליך בהקדם!</string>
+    <string name="movie_name">שם הסרט:</string>
+    <string name="screening_date">תאריך הקרנת הסרט:</string>
+    <string name="screening_time">שעת הקרנת הסרט:</string>
+    <string name="name_title">שם:</string>
+    <string name="email_error">בבקשה תמלא את כתובת המייל שלך כדי שנדע לאיפה לחזור אליך</string>
+    <string name="set">קבע</string>
+    <string name="busy_str">עסוק?</string>
+    <string name="busy_full_txt">"עסוק כרגע? בחר שעה ונקבע לך שעון מעורר שיתזכר לך לחזור אלינו ולהזמין סרט כשתתפנה! "</string>
+    <string name="pick_a_time">בחר שעה</string>
+    <string name="set_alarm_toast">ההתראה שלך נקבעה!</string>
+    <string name="time_error_str">שגיאה. לא נבחרה שעה!</string>
+</resources>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/second_pic">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/busy_str"
+        android:textColor="@color/yellow"
+        android:textSize="40sp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/busy_full_txt"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:padding="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:textStyle="bold"
+        android:background="@color/brown"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp">
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:text="@string/pick_a_time"
+            android:textAllCaps="false"
+            android:textStyle="italic"
+            android:layout_gravity="center"
+            android:background="@drawable/gold_btn"
+            android:id="@+id/time_btn" />
+
+        <TextView
+            android:id="@+id/time_tv"
+            android:layout_width="80dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@color/white"
+            android:focusable="false"
+            android:gravity="center"
+            android:inputType="time"
+            android:textAlignment="center" />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/alarm2"
+        android:text="@string/set"
+        android:textColor="@color/yellow"
+        android:textStyle="bold"
+        android:id="@+id/set_alarm_id"/>
+
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="120dp"
+        android:text="@string/done_btn"
+        android:textStyle="bold"
+        android:background="@drawable/gold_btn"
+        android:id="@+id/done_btn_id"/>
+
+</LinearLayout>

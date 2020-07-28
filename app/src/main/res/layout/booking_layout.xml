@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/second_pic"
+    android:paddingTop="40dp"
+    android:id="@+id/calender_layout">
+
+    <EditText
+        android:layout_width="240dp"
+        android:layout_height="40dp"
+        android:hint="@string/full_name"
+        android:background="#fff"
+        android:id="@+id/full_name"
+        android:textAlignment="center"
+        android:inputType="text"
+        android:layout_marginBottom="15dp"
+        android:layout_gravity="center">
+    </EditText>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="20dp"
+        android:background="@color/brown">
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:text="@string/date"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:background="@drawable/gold_btn"
+            android:id="@+id/date_btn"
+            android:layout_margin="3dp"/>
+
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/in_date"
+            android:inputType="datetime"
+            android:focusable="false"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginStart="20dp"
+        android:background="@color/brown">
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:text="@string/time"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:background="@drawable/gold_btn"
+            android:id="@+id/time_btn"
+            android:layout_margin="3dp"/>
+
+        <Spinner
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/in_time"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/movie_choice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="50dp"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center"
+        android:text="@string/movie_choice"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/brown"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <RadioGroup
+            android:id="@+id/radio_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/star_wars"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="@string/star_war"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/joker"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/joker"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/jumanji"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/jumanji"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+        </RadioGroup>
+
+        <ImageView
+            android:id="@+id/movie_pic"
+            android:layout_width="100dp"
+            android:layout_height="130dp"
+            android:layout_marginStart="30dp"
+            android:scaleType="fitXY"
+            android:background="@null"/>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:text="@string/next_btn"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:background="@drawable/gold_btn"
+        android:layout_margin="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:id="@+id/next_btn"/>
+
+</LinearLayout>

@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Cinema</string>
+    <string name="Booking">Book A Movie</string>
+    <string name="report">Problem?</string>
+    <string name="full_name">Please enter your name</string>
+    <string name="date">Date</string>
+    <string name="time">Time</string>
+    <string name="movie_choice">Pick a Movie</string>
+    <string name="star_war">Star Wars</string>
+    <string name="jumanji">Jumanji</string>
+    <string name="joker">Joker</string>
+    <string name="next_btn">Next</string>
+    <string-array name="time_array">
+        <item>12:00</item>
+        <item>13:00</item>
+        <item>14:00</item>
+        <item>15:00</item>
+        <item>16:00</item>
+        <item>17:00</item>
+        <item>18:00</item>
+        <item>19:00</item>
+        <item>20:00</item>
+        <item>21:00</item>
+        <item>22:00</item>
+        <item>23:00</item>
+    </string-array>
+    <string name="error_str">Please fill all fields and try again</string>
+    <string name="calendar_event">Would you like to add this booking to your calendar?</string>
+    <string name="alarm_clock">would you like to set an alarm clock?</string>
+    <string name="done_btn">Done</string>
+    <string name="almost_done">Almost Done</string>
+    <string name="yes_str">Yes</string>
+    <string name="cinema_city">Cinema City</string>
+    <string name="event_title">Movie night</string>
+    <string name="report_headline">Want to Report? Fill in you email address and we\'ll get back to you soon! You can attach a picture or a video if you\'d like.</string>
+    <string name="email_address">Fill in your email address</string>
+    <string name="picturesaved_str">Your picture has been saved!</string>
+    <string name="videosaved_str">Your video has been saved!</string>
+    <string name="thanks_str">Thank you, we\'ll get back to you soon!</string>
+    <string name="movie_name">Movie Name:</string>
+    <string name="screening_time">Movie Screening Time:</string>
+    <string name="screening_date">Movie Screening Date:</string>
+    <string name="name_title">Name:</string>
+    <string name="email_error">Please fill in your email address so we can get back to you</string>
+    <string name="set">Set</string>
+    <string name="busy_str">Busy?</string>
+    <string name="busy_full_txt">Busy now? pick a time and we\'ll set an alarm clock so you can comeback and book a movie when you\'re free!</string>
+    <string name="pick_a_time">Pick a Time</string>
+    <string name="set_alarm_toast">Your alarm was seted!</string>
+    <string name="time_error_str">Error. No time was chosen!</string>
+</resources>

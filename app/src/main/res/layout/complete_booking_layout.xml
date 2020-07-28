@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/second_pic"
+    android:id="@+id/complete_booking_layout_id">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/almost_done_id"
+        android:text="@string/almost_done"
+        android:layout_gravity="center"
+        android:textSize="30sp"
+        android:paddingTop="40dp"
+        android:textColor="@color/yellow"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_gravity="center"
+        android:background="@color/brown">
+
+        <TextView
+            android:id="@+id/details_name"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/name_title"/>
+
+        <TextView
+            android:id="@+id/details_movie"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/movie_name"/>
+
+        <TextView
+            android:id="@+id/details_date"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/screening_date"/>
+
+        <TextView
+            android:id="@+id/details_time"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/screening_time"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/calendar_event"
+        android:layout_gravity="center"
+        android:textSize="16sp"
+        android:paddingTop="50dp"
+        android:textColor="@color/white"
+        android:textStyle="italic"/>
+
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/gold_btn"
+        android:text="@string/yes_str"
+        android:textStyle="italic"
+        android:id="@+id/calendar_event_id"/>
+
+
+
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:text="@string/done_btn"
+        android:textStyle="bold"
+        android:background="@drawable/gold_btn"
+        android:id="@+id/done_btn_id"/>
+
+</LinearLayout>
